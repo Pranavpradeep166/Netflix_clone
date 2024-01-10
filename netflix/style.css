@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(57, 56, 56);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/eeb03fc9-99c6-438e-824d-32917ce55783/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    filter: brightness(-20);
+    
+}
+
+nav{  
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px;
+    color: white;
+  
+
+}
+
+.logo{
+    
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(229,9,20);
+    position: relative;
+    left: 115px;
+
+}
+
+.english{
+    padding: 6px 30px;
+    border-radius: 50%;
+    font-weight: lighter;
+    background-color: #202120;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(193, 190, 190);
+    position: relative;
+    left: 655px;
+
+}
+
+.signin{
+    padding: 7px 20px;
+    background-color: rgb(229,9,20);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 680px;
+    font-weight: lighter;
+}
+
+.centerbox{
+    text-align: center;
+    color: rgb(255,255,255);
+    top: 30%;
+    position: relative;
+}
+
+.firsttext{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.secondtext{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+.thirdtext{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.buttonbox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 22px;
+
+}
+
+.box1{
+    width: 380px;
+    text-align: left;
+    height: 55px;
+    position: relative;
+    left: 95px;
+    border: 1px solid rgb(191, 206, 191);
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    font-weight: lighter;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+
+.email1{
+    font-size: 12px;
+    margin-left: 10px;
+
+}
+
+.email2{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 3px;
+    
+
+}
+
+.box2{
+    width: 210px;
+    position: relative;
+    right: 122px;
+    background-color: rgb(229,9,20);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container2{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 8px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    position: relative;
+    top: 110px;
+    width: 80%;
+    left: 100px;
+    
+}
+
+.enjoy{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.watch{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 18px;
+    
+}
+
+.col1{
+    margin-top: 20px;
+   
+}
+
+.col2{
+    position: relative;
+    right: 35px;
+}
+
+.container3{
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 8px;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    position: relative;
+    width: 75%;
+    left: 100px;
+
+}
+
+.download{
+    font-size: 3rem;
+    font-weight: 900
+}
+
+.save{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.col22{
+    margin-top: 80px;
+}
+
+.col11{
+    margin-top: 35px;
+    position: relative;
+    left: 10px;
+}
+
+.container4{
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 8px;
+}
+
+.row3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    position: relative;
+    width: 75%;
+    left: 100px;
+
+}
+.everywhere{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.stream{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.colu1{
+    margin-top: 140px;
+}
+
+.colu2{
+    margin-top: 80px;
+    position: relative;
+    left: 45px;
+}
+
+.container5{
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 8px;
+}
+
+.row4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    position: relative;
+    width: 75%;
+    left: 100px;
+
+}
+
+.create{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.send{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.colu11{
+    margin-top: 60px;
+    position: relative;
+    top: 15px;
+}
+
+.colu22{
+    margin-top: 100px;
+    position: relative;
+    left: 20px;
+}
+
+.container6{
+    height: 150vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 8px;
+    text-align: center;
+    
+    
+}
+
+.largebox{
+    color: white;
+    position: relative;
+    top: 55px;
+
+   
+}
+
+.freq{
+    font-size: 3rem;
+    font-weight: 900; 
+     
+}
+
+.qnbox{
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 75%;
+    line-height: 75px;
+    position: relative;
+    top: 15px;
+    left: 130px;
+    text-align: left;
+    
+}
+
+.q1{
+    background-color: rgb(61, 59, 59);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+    
+    
+}
+.text1{
+   margin-left: 24px;
+   margin-top: 5px;
+}
+
+.symbol{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.readyto{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    position: relative;
+    top: 55px;
+}
+
+.buttonbox22{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 22px;
+    position: relative;
+    top: 110px;
+    cursor: pointer;
+
+}
+
+.box22{
+    width: 380px;
+    text-align: left;
+    height: 55px;
+    position: relative;
+    left: 95px;
+    border: 1px solid rgb(191, 206, 191);
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    font-weight: lighter;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.container7{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 8px;
+    
+}
+
+.questions{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255,255,255,0.7);
+    position: relative;
+    top: 70px;
+    margin-left: 150px;
+}
+
+.fourbox{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(255,255,255,0.7);
+    position: relative;
+    top: 120px;
+    width: 80%;
+    left: 50px;
+    text-decoration: underline;
+    
+}
+
+.fourbox1{
+    line-height: 38px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.englishbutton{
+    padding: 6px 30px;
+    border-radius: 50%;
+    font-weight: lighter;
+    background-color: #101010;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px solid white;
+    position: relative;
+    left: 146px;
+    width: 65px;
+    top: 135px;
+    height: 25px;
+    text-align: center;
+    font-size: 1.10rem;
+    font-weight: 500;
+
+}
+
+.netflixx{
+    color: rgba(255,255,255,0.7);
+    position: relative;
+    left: 150px;
+    top: 153px;
+    width: 100px;
+
+}
